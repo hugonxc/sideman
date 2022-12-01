@@ -1,0 +1,23 @@
+{
+  "name": "sideman",
+  "version": "1.0.0",
+  "repository": "https://github.com/hugonxc/sideman.git",
+  "author": "Hugo Carvalho",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "@types/react": "18.0.25",
+    "typescript": "4.9.3"
+  }
+}
