@@ -6,3 +6,6 @@
 
 # typescript
 next-env.d.ts
+
+# vscode
+settings.json
