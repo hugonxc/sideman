@@ -1,6 +1,7 @@
 import { styled } from "@stitches/react"
 
 import { MdPlayArrow, MdStop } from "react-icons/md"
+import { play, stop } from "../core/audio-controls"
 
 const PlayerContainer = styled('div', {
   display: 'flex',
@@ -30,11 +31,11 @@ export const Player = () => {
   return (
     <PlayerContainer>
 
-      <PlayerButton>
+      <PlayerButton onClick={() => play()}>
         <MdPlayArrow size={48} />
       </PlayerButton>
       
-      <PlayerButton>
+      <PlayerButton onClick={() => stop()}>
         <MdStop size={48} />
       </PlayerButton>
 
